@@ -3,15 +3,14 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
-const { REACT_APP_APIKEY, REACT_APP_AUTHDOMAIN, REACT_APP_PROJECTID, REACT_APP_STORAGEBUCKET, REACT_APP_MESSAGINGSENDERID, REACT_APP_APPID} = process.env;
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: REACT_APP_APIKEY,
-  authDomain: REACT_APP_AUTHDOMAIN,
-  projectId: REACT_APP_PROJECTID,
-  storageBucket: REACT_APP_STORAGEBUCKET,
-  messagingSenderId: REACT_APP_MESSAGINGSENDERID,
-  appId: REACT_APP_APPID
+  apiKey: "AIzaSyDHHtyjWbhOO6dbz7Z0UTRmD1WM6C1sSDg",
+  authDomain: "fly-me-to-the-moon-13c2d.firebaseapp.com",
+  projectId: "fly-me-to-the-moon-13c2d",
+  storageBucket: "fly-me-to-the-moon-13c2d.appspot.com",
+  messagingSenderId: "1020385234720",
+  appId: "1:1020385234720:web:c4e5ffcfb26ba81063d145"
 };
 
 // Initialize Firebase
