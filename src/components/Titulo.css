@@ -1,0 +1,41 @@
+#changing-text{
+    margin-right: 40vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#texts-container{
+    display: inline-block;
+    height: 50px;
+    overflow: hidden;
+    color: rgb(22, 65, 117);
+}
+
+#texts-container span{
+    display: block;
+    animation: moveUp 8s infinite;
+}
+
+@keyframes moveUp{
+    0%{
+        transform: translateY(0);
+    }
+
+    25%{
+        transform: translateY(-26%);
+    }
+
+    50%{
+        transform: translateY(-51%);
+    }
+
+    75%{
+        transform: translateY(-76%);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
