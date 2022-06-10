@@ -1,15 +1,24 @@
+
+
 .wave{
   width:3px;
   height:90px;
-  background-color:#ff7a00;
+  background-color:#fff;
   border-radius:10px;
   margin:5px;
     transform:scale(0);
   animation:scale 1s linear infinite;
+  display:flex;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
 }
 
 .waves-container{
   display:flex;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes scale{
